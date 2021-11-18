@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding:0;
+        }
+        header {
+            width: 100%;
+            background-color: wheat;
+            /* height: 30vh; */
+            /* border: 1px solid black; */
+        }
+        .name {
+            display: inline-block;
+            width: 20%;
+            padding: 40px;
+        }
+        h1 {
+            color: cornflowerblue;
+            font-size: 96px;
+            padding: 0;
+            margin: 0;
+        }
+        h4 {
+            color: darkblue;
+            font-size: 36px;
+            padding: 0;
+            margin-top: -20px;
+        }
+        h6 {
+            font-size: 30px;
+        }
+        .info {
+            display: inline-block;
+            padding: 0 0 0 25px;
+            margin: 0;
+
+        }
+        .info label, input {
+           font-size: 24px;
+           margin: 10px;
+           outline: none;
+        }
+        .info input {
+            padding: 5px 15px;
+            border-radius: 15px;
+            border: none;
+        }
+        .info label {
+            padding-left: 10px;
+        }
+        .menu {
+            display: inline-block;
+            position: relative;
+            float: right;
+            padding: 80px 50px 0 0; rgba:(0,0,0,.25);
+        }
+        a {
+            display: inline-block;
+            margin: 25px;
+            padding: 10px 30px;
+            text-decoration: none;
+            background-color: aquamarine;
+            box-shadow: 0px 0px 2px;  
+            border-radius: 100px;
+        }
+        .medal {
+            position: relative;
+            display: flex;
+            width: 100%;
+        }
+        .medal img {
+            width: 30%;
+            height: 30vh;
+            padding: 10px;
+            margin: 10px 24px;
+            border: 5px groove blueviolet;
+        }
+        p {
+            font-size: larger;
+            padding: 15px;
+        }
+        footer {
+            width: 100%;
+            background-color: rgb(80, 74, 74);
+            display: flex;
+        }
+        footer .logo {
+            width: 40%;
+            height: 32vh;
+            display: inline-block;
+        }
+        footer .logo img {
+            width: 90%;
+            height: 30vh;
+            padding: 10px;
+        }
+        .container {
+            width: 60%;
+        }
+        .content {
+            color: white;
+        }
+        .content ul {
+            list-style: none;
+        }
+        .content h2, ul {
+            margin: 10px;
+            font-size: 24px;
+            padding: 0 0 0  900px;
+        }
+        .content ul li {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="name">
+            <h1>HKR</h1>
+            <h4>ENTERPRICES</h4>
+            <h6>The Name of Quality</h6>
+        </div>
+        <div class="info">
+            <label for="name">Custumer Name</label><br>
+            <input type="text" id="name" placeholder="Name"><br><br>
+            <label for="email"> Email Address</label><br>
+            <input type="email" id="email" placeholder="Email_Address">
+        </div>
+        <div class="menu">
+            <a href="https://www.facebook.com/HKR-Graphics-110852894562768">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </header>
+    <div class="medal">
+        <img src="https://scontent.fkhi2-3.fna.fbcdn.net/v/t1.6435-9/202855435_114652490849475_3361437833420453751_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEFJY202m1c5S40oQXYjfOzTfFSsaCPmEdN8VKxoI-YR25xvlc6nbC_3LIN42adwJDS9tFpqY2zsFlH2C-pSebF&_nc_ohc=IW59j_oaiC0AX-Y72-H&_nc_ht=scontent.fkhi2-3.fna&oh=967cebd2cd48392be3f836988c277654&oe=61A82AC4" alt="">
+        <img src="https://scontent.fkhi2-3.fna.fbcdn.net/v/t1.6435-9/194343216_113422490972475_8972604087660615680_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeHGqCYwZiC007SyOozsWwJoISZZOvkUfRchJlk6-RR9F0QU2F8pGcLUzw6V6EWTCu_loj-1NU9jBJWtHJ7k9Uxk&_nc_ohc=I_fyeacIYAMAX_i5VJS&_nc_ht=scontent.fkhi2-3.fna&oh=a2f3f6029266caad062b776838731f25&oe=61A93C75" alt="">
+        <img src="https://scontent.fkhi2-2.fna.fbcdn.net/v/t1.6435-9/131338467_112156524432405_6737819517510758733_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFkkDc5XsO7zdJLiLP8YRPN5or6zSSN_rrmivrNJI3-uqK1MiCHpxYpMJX5gTZvcqt0R5TE0X5lih6yN1p3FcK1&_nc_ohc=m4F6L4CVQjQAX_jWjl_&_nc_ht=scontent.fkhi2-2.fna&oh=c7e125bba1b5f14cb4fc0659c73f4a44&oe=61AA8779" alt="">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque necessitatibus velit sapiente minus ducimus culpa maxime, iure sed eum eos ab pariatur at excepturi corporis quo quos quod reprehenderit voluptatum.</p>
+    <br><br>
+    <hr>
+    <footer>
+        <div class="logo">
+            <img src="./HKR_Logo.png" alt="">
+        </div>
+        <div class="container">
+            <div class="content">
+                <p>
+                    Address : Opposite Total Parco Filling Station, Main Hub River Road, Baldia Town, Karachi.
+                </p> 
+                <h2>Products</h2>
+                <ul>
+                    <li>Features</li>
+                    <li>Security</li>
+                    <li>Team</li>
+                    <li>Enterprise</li>
+                    <li>Customer stories</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
